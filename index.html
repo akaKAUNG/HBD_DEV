@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="css/flexbox-center-container.css"
+            media="all"
+        />
+        <link rel="stylesheet" href="css/system-fonts.css" media="all" />
+        <link rel="stylesheet" href="css/style.css" media="all" />
+        <title>happy:)</title>
+    </head>
+    <body>
+        <canvas id="c"></canvas>
+        <canvas id="confetti"></canvas>
+        <div class="container" id="count" width="90%">
+            <h1 id="head">Time to your birthday:</h1>
+            <ul>
+                <li><span id="day"></span>days</li>
+                <li><span id="hour"></span>hours</li>
+                <li><span id="minute"></span>minutes</li>
+                <li><span id="second"></span>seconds</li>
+            </ul>
+        </div>
+        <div id="merrywrap" class="merrywrap">
+            <canvas id="snowfall"></canvas>
+            <div class="giftbox">
+                <div class="cover">
+                    <div></div>
+                </div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <audio autoplay hidden loop><source src="audio/hbd.mp3" /></audio>
+    </body>
+    <script src="js/confetti.min.js" charset="utf-8"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+</html>
